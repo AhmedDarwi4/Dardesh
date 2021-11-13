@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>799994840375-92iatmg1ijl8n4dm7rh74rtplfncqki2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.799994840375-92iatmg1ijl8n4dm7rh74rtplfncqki2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBq-lqhlptE4BWBvxlwFgKDz9hfRDtceeI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>799994840375</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>hacking-with-swift.Dardesh</string>
+	<key>PROJECT_ID</key>
+	<string>dardesh-e1eff</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dardesh-e1eff.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:799994840375:ios:6f57e7525f3c9db45446b2</string>
+</dict>
+</plist>

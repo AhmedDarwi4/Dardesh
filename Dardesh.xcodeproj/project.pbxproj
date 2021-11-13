@@ -3,27 +3,39 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D4B7D3E26C110717723C7F6 /* Pods_Dardesh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0D3FFA49097744BC1042FC8 /* Pods_Dardesh.framework */; };
+		E6A8F45B26B5A13500BE9D7B /* vcLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6A8F45A26B5A13500BE9D7B /* vcLogin.swift */; };
+		E6AC2BFD26C3383900F5B2A7 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC2BFC26C3383900F5B2A7 /* User.swift */; };
+		E6C5EE4426C6A88100641A3A /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C5EE4326C6A88100641A3A /* FCollectionReference.swift */; };
+		E6C5EE6626C73B0000641A3A /* FUserListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C5EE6526C73B0000641A3A /* FUserListener.swift */; };
 		E6D3127326B453CB00028EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3127226B453CB00028EF7 /* AppDelegate.swift */; };
 		E6D3127526B453CB00028EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3127426B453CB00028EF7 /* SceneDelegate.swift */; };
-		E6D3127726B453CB00028EF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6D3127626B453CB00028EF7 /* ViewController.swift */; };
 		E6D3127A26B453CB00028EF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D3127826B453CB00028EF7 /* Main.storyboard */; };
 		E6D3127C26B453CC00028EF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6D3127B26B453CC00028EF7 /* Assets.xcassets */; };
 		E6D3127F26B453CC00028EF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6D3127D26B453CC00028EF7 /* LaunchScreen.storyboard */; };
+		E6D312AC26B45D5A00028EF7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E6D312AB26B45D5A00028EF7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73E4E80118BEBE60BED055ED /* Pods-Dardesh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dardesh.release.xcconfig"; path = "Target Support Files/Pods-Dardesh/Pods-Dardesh.release.xcconfig"; sourceTree = "<group>"; };
+		DF721ADA4DDEDE424B784720 /* Pods-Dardesh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dardesh.debug.xcconfig"; path = "Target Support Files/Pods-Dardesh/Pods-Dardesh.debug.xcconfig"; sourceTree = "<group>"; };
+		E0D3FFA49097744BC1042FC8 /* Pods_Dardesh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dardesh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6A8F45A26B5A13500BE9D7B /* vcLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vcLogin.swift; sourceTree = "<group>"; };
+		E6AC2BFC26C3383900F5B2A7 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E6C5EE4326C6A88100641A3A /* FCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		E6C5EE6526C73B0000641A3A /* FUserListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUserListener.swift; sourceTree = "<group>"; };
 		E6D3126F26B453CB00028EF7 /* Dardesh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dardesh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6D3127226B453CB00028EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6D3127426B453CB00028EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E6D3127626B453CB00028EF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E6D3127926B453CB00028EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6D3127B26B453CC00028EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6D3127E26B453CC00028EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E6D3128026B453CC00028EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6D312AB26B45D5A00028EF7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D4B7D3E26C110717723C7F6 /* Pods_Dardesh.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		934F19AAC7209E13031CB8B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E0D3FFA49097744BC1042FC8 /* Pods_Dardesh.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6AC2BFA26C3380500F5B2A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E6A8F45A26B5A13500BE9D7B /* vcLogin.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E6AC2BFB26C3381C00F5B2A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E6AC2BFC26C3383900F5B2A7 /* User.swift */,
+				E6C5EE4326C6A88100641A3A /* FCollectionReference.swift */,
+				E6C5EE6526C73B0000641A3A /* FUserListener.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E6D3126626B453CA00028EF7 = {
 			isa = PBXGroup;
 			children = (
 				E6D3127126B453CB00028EF7 /* Dardesh */,
 				E6D3127026B453CB00028EF7 /* Products */,
+				FA575123EA0DD18A1D0BE341 /* Pods */,
+				934F19AAC7209E13031CB8B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +99,24 @@
 			children = (
 				E6D3127226B453CB00028EF7 /* AppDelegate.swift */,
 				E6D3127426B453CB00028EF7 /* SceneDelegate.swift */,
-				E6D3127626B453CB00028EF7 /* ViewController.swift */,
+				E6AC2BFB26C3381C00F5B2A7 /* Model */,
+				E6AC2BFA26C3380500F5B2A7 /* Controllers */,
 				E6D3127826B453CB00028EF7 /* Main.storyboard */,
 				E6D3127B26B453CC00028EF7 /* Assets.xcassets */,
 				E6D3127D26B453CC00028EF7 /* LaunchScreen.storyboard */,
 				E6D3128026B453CC00028EF7 /* Info.plist */,
+				E6D312AB26B45D5A00028EF7 /* GoogleService-Info.plist */,
 			);
 			path = Dardesh;
+			sourceTree = "<group>";
+		};
+		FA575123EA0DD18A1D0BE341 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF721ADA4DDEDE424B784720 /* Pods-Dardesh.debug.xcconfig */,
+				73E4E80118BEBE60BED055ED /* Pods-Dardesh.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6D3128326B453CC00028EF7 /* Build configuration list for PBXNativeTarget "Dardesh" */;
 			buildPhases = (
+				E636753A0A155405F39B42CD /* [CP] Check Pods Manifest.lock */,
 				E6D3126B26B453CB00028EF7 /* Sources */,
 				E6D3126C26B453CB00028EF7 /* Frameworks */,
 				E6D3126D26B453CB00028EF7 /* Resources */,
+				2626312A5DBDF726632F79AD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,6 +178,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6D312AC26B45D5A00028EF7 /* GoogleService-Info.plist in Resources */,
 				E6D3127F26B453CC00028EF7 /* LaunchScreen.storyboard in Resources */,
 				E6D3127C26B453CC00028EF7 /* Assets.xcassets in Resources */,
 				E6D3127A26B453CB00028EF7 /* Main.storyboard in Resources */,
@@ -132,12 +187,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2626312A5DBDF726632F79AD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dardesh/Pods-Dardesh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dardesh/Pods-Dardesh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dardesh/Pods-Dardesh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E636753A0A155405F39B42CD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dardesh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E6D3126B26B453CB00028EF7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6D3127726B453CB00028EF7 /* ViewController.swift in Sources */,
+				E6AC2BFD26C3383900F5B2A7 /* User.swift in Sources */,
+				E6A8F45B26B5A13500BE9D7B /* vcLogin.swift in Sources */,
+				E6C5EE4426C6A88100641A3A /* FCollectionReference.swift in Sources */,
+				E6C5EE6626C73B0000641A3A /* FUserListener.swift in Sources */,
 				E6D3127326B453CB00028EF7 /* AppDelegate.swift in Sources */,
 				E6D3127526B453CB00028EF7 /* SceneDelegate.swift in Sources */,
 			);
@@ -283,6 +383,7 @@
 		};
 		E6D3128426B453CC00028EF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF721ADA4DDEDE424B784720 /* Pods-Dardesh.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +402,7 @@
 		};
 		E6D3128526B453CC00028EF7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73E4E80118BEBE60BED055ED /* Pods-Dardesh.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
